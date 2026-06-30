@@ -5,4 +5,5 @@ let person = {
 }
 
 let newperson = JSON.stringify(person);
-console.log(newperson);
+/* console.log(newperson); */
+localStorage.setItem("nimadur", newperson)
